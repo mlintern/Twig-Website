@@ -97,7 +97,62 @@ class __TwigTemplate_16f760a8aa6b6a5a32a3bc6d3b79da8ab3d4382881e8242ff79e3769d33
       <div id=\"collapseTwo\" class=\"panel-collapse collapse\">
         <div class=\"panel-body\">
           <div class=\"container\">
-            <img src=\"http://placehold.it/1170x550/0F0/FF0&text=[Area Two]\"/>
+            <div class=\"row\">
+              <div class=\"col-sm-4\">
+                <div class=\"panel panel-default\">
+                  <div class=\"panel-heading\">
+                    <h3 class=\"panel-title\">Panel title</h3>
+                  </div>
+                  <div class=\"panel-body\">
+                    Panel content
+                  </div>
+                </div>
+                <div class=\"panel panel-primary\">
+                  <div class=\"panel-heading\">
+                    <h3 class=\"panel-title\">Panel title</h3>
+                  </div>
+                  <div class=\"panel-body\">
+                    Panel content
+                  </div>
+                </div>
+              </div><!-- /.col-sm-4 -->
+              <div class=\"col-sm-4\">
+                <div class=\"panel panel-success\">
+                  <div class=\"panel-heading\">
+                    <h3 class=\"panel-title\">Panel title</h3>
+                  </div>
+                  <div class=\"panel-body\">
+                    Panel content
+                  </div>
+                </div>
+                <div class=\"panel panel-info\">
+                  <div class=\"panel-heading\">
+                    <h3 class=\"panel-title\">Panel title</h3>
+                  </div>
+                  <div class=\"panel-body\">
+                    Panel content
+                  </div>
+                </div>
+              </div><!-- /.col-sm-4 -->
+              <div class=\"col-sm-4\">
+                <div class=\"panel panel-warning\">
+                  <div class=\"panel-heading\">
+                    <h3 class=\"panel-title\">Panel title</h3>
+                  </div>
+                  <div class=\"panel-body\">
+                    Panel content
+                  </div>
+                </div>
+                <div class=\"panel panel-danger\">
+                  <div class=\"panel-heading\">
+                    <h3 class=\"panel-title\">Panel title</h3>
+                  </div>
+                  <div class=\"panel-body\">
+                    Panel content
+                  </div>
+                </div>
+              </div><!-- /.col-sm-4 -->
+            </div>
           </div>
         </div> <!-- panel-body -->
       </div> <!-- colapse -->
