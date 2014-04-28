@@ -29,35 +29,33 @@ class __TwigTemplate_16f760a8aa6b6a5a32a3bc6d3b79da8ab3d4382881e8242ff79e3769d33
     {
         // line 3
         echo "
-<div style=\"height: 70px;\"></div>
-
 <div class=\"fog50\"> 
   <div class=\"panel-group\" id=\"accordion\">
     
     ";
-        // line 9
+        // line 7
         $this->env->loadTemplate("sectionOne.html")->display($context);
+        // line 8
+        echo "
+    ";
+        // line 9
+        $this->env->loadTemplate("sectionTwo.html")->display($context);
         // line 10
         echo "
     ";
         // line 11
-        $this->env->loadTemplate("sectionTwo.html")->display($context);
+        $this->env->loadTemplate("sectionThree.html")->display($context);
         // line 12
         echo "
     ";
         // line 13
-        $this->env->loadTemplate("sectionThree.html")->display($context);
+        $this->env->loadTemplate("sectionFour.html")->display($context);
         // line 14
         echo "
     ";
         // line 15
-        $this->env->loadTemplate("sectionFour.html")->display($context);
-        // line 16
-        echo "
-    ";
-        // line 17
         $this->env->loadTemplate("sectionFive.html")->display($context);
-        // line 18
+        // line 16
         echo "
   </div> <!-- panel-group -->
 </div> <!-- fog50 -->
@@ -77,6 +75,6 @@ class __TwigTemplate_16f760a8aa6b6a5a32a3bc6d3b79da8ab3d4382881e8242ff79e3769d33
 
     public function getDebugInfo()
     {
-        return array (  61 => 18,  59 => 17,  56 => 16,  54 => 15,  51 => 14,  49 => 13,  46 => 12,  44 => 11,  41 => 10,  39 => 9,  31 => 3,  28 => 2,);
+        return array (  59 => 16,  57 => 15,  54 => 14,  52 => 13,  49 => 12,  47 => 11,  44 => 10,  42 => 9,  39 => 8,  37 => 7,  31 => 3,  28 => 2,);
     }
 }
