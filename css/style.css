@@ -23,7 +23,7 @@ color: #FFF;
 a {
 color: #FFF;
 }
-a:hover, a:visited {
+a:hover, a:visited, a:focus {
 color: #FFF;
 }
 h2 a:hover{
