@@ -19,7 +19,7 @@ $(document).ready(function() {
 	
 	$('.plusOne').click(function(){
 		$(this).parents('.thumbnail').find('.rank').remove();
-		$(this).parents('.thumbnail').append('<div class="rank"><i class="fa fa-check text-success"></i></div>')
+		$(this).parents('.thumbnail').append('<div class="rank"><i class="fa fa-check text-success"></i></div>');
 	});
 	
 	$('a[data-toggle="collapse"]').click(function(){
