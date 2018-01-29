@@ -1,0 +1,4 @@
+If you run into any cache issues you may need to create directory and set permissions
+
+mkdir compilation_cache
+chmod 777 compilation_cache/
