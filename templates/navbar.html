@@ -1,36 +1,58 @@
-<nav id="main-navbar" class="navbar navbar-default navbar-fixed-top fog50" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#top">Boot Straps</a>
-  </div>
-  
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li id="NavOne"><a data-toggle="collapse" data-parent="#accordion" data-nav-active="NavOne" href="#collapseOne" class="local">Carousel <span class="fa fa-picture-o"></span></a></li>
-      <li id="NavTwo"><a data-toggle="collapse" data-parent="#accordion" data-nav-active="NavTwo" href="#collapseTwo" class="local">Panels <span class="fa fa-bullhorn"></span></a></li>
-      <li id="NavThree"><a data-toggle="collapse" data-parent="#accordion" data-nav-active="NavThree" href="#collapseThree" class="local">Thumbnails <i class="fa fa-picture-o"></i></a></li>
-      <li id="NavFour"><a data-toggle="collapse" data-parent="#accordion" data-nav-active="NavFour" href="#collapseFour" class="local">Social <span class="fa fa-phone"></span></a></li>
-      <li id="NavFive"><a data-toggle="collapse" data-parent="#accordion" data-nav-active="NavFive" href="#collapseFive" class="local">Progress <i class="fa fa-list"></i></a></li>
+<div class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <span class="navbar-text p-0 mr-3">
+    <i class="offcanvas-menu-toggle fa fa-bars fa-lg"></i>
+  </span>
+  <a class="navbar-brand" href="#"><span data-toggle="tooltip" data-placement="bottom" title="2.2.0">Fontstrap</span></a>
+  <span class="navbar-text d-lg-inline d-none">
+    <strong>Contains: </strong>
+  </span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="nav navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" target="_blank" href="https://getbootstrap.com"><span data-toggle="tooltip" data-placement="bottom" title="4.0.0">Bootstrap</span></a></li>
+      <li class="nav-item"><a class="nav-link" target="_blank" href="http://fontawesome.io"><span data-toggle="tooltip" data-placement="bottom" title="5.0.4">Font Awesome</span></a></li>
+      <li class="nav-item"><a class="nav-link" target="_blank" href="http://jquery.com"><span data-toggle="tooltip" data-placement="bottom" title="3.3.1">jQuery</span></a></li>
+      <li class="nav-item"><a class="nav-link" target="_blank" href="https://lodash.com"><span data-toggle="tooltip" data-placement="bottom" title="4.17.4">Lodash.js</span></a></li>
+      <li class="nav-item"><a class="nav-link" target="_blank" href="https://popper.js.org"><span data-toggle="tooltip" data-placement="right" title="1.12.9">Popper.js</span></a></li>
     </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><button class="btn btn-default navbar-btn" data-toggle="modal" data-target="#myModal"><span class="fa fa-envelope"></span> Button</button></li>
-      
-      <li><a target="_blank" href="/?p=hi">Link <span class="fa fa-globe"></span></a></li>
+
+    <ul class="nav navbar-nav mx-auto">
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">DropDown <span class="fa fa-certificate"></span><b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a target="_blank" href="#"><span class="fa fa-user fa-fw"></span> Link</a></li>
-          <li><a target="_blank" href="#"><span class="fa fa-plane fa-fw"></span> Link</a></li>
+        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Themes <span class="caret"></span></a>
+        <ul class="dropdown-menu theme-menu bg-secondary">
+          <li class="dropdown-header text-white">Pick a Theme</li>
+          <li role="separator" class="divider"></li>
         </ul>
       </li>
     </ul>
-  </div><!-- /.navbar-collapse -->
-</nav>
-<div style="height: 100px;"></div>
+
+    <ul class="navbar-nav">
+      <li><a target="_blank" href="https://www.instagram.com">
+        <span class="fa-layers fa-3x">
+          <i class="fa fa-circle"></i>
+          <i class="fab fa-instagram" data-fa-transform="shrink-7"></i>
+        </span>
+      </a></li>
+      <li><a target="_blank" href="https://twitter.com">
+        <span class="fa-layers fa-3x">
+          <i class="fa fa-circle"></i>
+          <i class="fab fa-twitter" data-fa-transform="shrink-7"></i>
+        </span>
+      </a></li>
+      <li><a target="_blank" href="https://www.facebook.com">
+        <span class="fa-layers fa-3x">
+          <i class="fa fa-circle"></i>
+          <i class="fab fa-facebook" data-fa-transform="shrink-7"></i>
+        </span>
+      </a></li>
+      <li><a target="_blank" href="https://www.pinterest.com">
+        <span class="fa-layers fa-3x">
+          <i class="fa fa-circle"></i>
+          <i class="fab fa-pinterest" data-fa-transform="shrink-7"></i>
+        </span>
+      </a></li>
+    </ul>
+  </div>
+</div>
