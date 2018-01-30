@@ -23,11 +23,13 @@
 
   <div class="offcanvas-main-content">
 
-  {% include 'navbar.html' %}
+    {% include 'header.html' %}
 
-  {% block body %} {% endblock body %}
+    {% include 'navbar.html' %}
 
-  {% include 'footer.html' %}
+    {% block body %} {% endblock body %}
+
+    {% include 'footer.html' %}
 
   </div>
 
