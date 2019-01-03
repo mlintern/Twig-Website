@@ -1,20 +1,14 @@
 {% extends "layout.html" %}
 {% block body %}
 
-<div class="fog50">
-  <div class="panel-group" id="accordion">
+{% include 'directory_structure.html' %}
 
-    {% include 'directory_structure.html' %}
+{% include 'sectionTwo.html' %}
 
-    {% include 'sectionTwo.html' %}
+{% include 'sectionThree.html' %}
 
-    {% include 'sectionThree.html' %}
+{% include 'sectionFour.html' %}
 
-    {% include 'sectionFour.html' %}
-
-    {% include 'sectionFive.html' %}
-
-  </div> <!-- panel-group -->
-</div> <!-- fog50 -->
+{% include 'sectionFive.html' %}
 
 {% endblock %}
